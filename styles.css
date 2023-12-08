@@ -19,7 +19,7 @@ ul {
 }
 
 button {
-  padding: 0.5rem 1.5rem;
+  padding: 0.5rem 2.5rem;
   background-color: #3882F6;
   color: #F9FAF8;
 
@@ -27,6 +27,10 @@ button {
   border-radius: 8px;
   font-size: 18px;
   font-weight: bold;
+}
+
+a, button {
+  cursor: pointer;
 }
 
 .header,
@@ -147,18 +151,33 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #3882F6;
+  margin: 8rem 16rem;
+  border-radius: 8px;
+  padding: 4rem 0;
+  gap: 16rem;
+}
+
+.cta-section button {
+  border: 2px solid #F9FAF8;
 }
 
 .cta-text {
   display: flex;
   flex-direction: column;
+  color: #F9FAF8;
+}
+
+.bold {
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .footer {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  padding: 1rem 0;
   background-color: #1F2937;
-  color: #FFF;
+  color: #F9FAF8;
 }
